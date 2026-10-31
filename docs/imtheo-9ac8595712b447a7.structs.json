@@ -1,0 +1,31 @@
+{
+  "_source": "https://offsets.imtheo.lol/version-9ac8595712b447a7/offsets.json",
+  "_note": "Dump de RbxDumperV2 (392 offsets) para la build exacta. Sirve para offsets de ESTRUCTURA; no trae los RVAs de Luau (luau_load, print, get_global_state). Cruzar con Windows/version-9ac8595712b447a7/Internal_Offsets.hpp de Offsetmanager/Roblox-Internal-External-Offsets, que sí los tiene. Verificado: TaskScheduler.Pointer coincide en ambas fuentes (0x8F026A8).",
+  "Roblox Version": "version-9ac8595712b447a7",
+  "Total Offsets": 392,
+  "key_struct_offsets": {
+    "TaskScheduler.Pointer": 149956264,
+    "TaskScheduler.JobStart": 200,
+    "TaskScheduler.JobEnd": 208,
+    "TaskScheduler.JobName": 24,
+    "TaskScheduler.MaxFPS": 176,
+    "FakeDataModel.Pointer": 150312976,
+    "FakeDataModel.RealDataModel": 504,
+    "DataModel.ScriptContext": 1088,
+    "DataModel.PlaceId": 384,
+    "DataModel.GameId": 376,
+    "DataModel.GameLoaded": 1480,
+    "DataModel.Workspace": 328,
+    "RenderJob.FakeDataModel": 56,
+    "RenderJob.RealDataModel": 496,
+    "ScriptContext.RequireBypass": 0,
+    "VisualEngine.Pointer": 144556448,
+    "VisualEngine.FakeDataModel": 2800,
+    "ByteCode.Size": 40,
+    "ByteCode.Pointer": 16,
+    "Instance.ChildrenStart": 112,
+    "Instance.ChildrenEnd": 8,
+    "Instance.Parent": 96
+  },
+  "full_dump": "descargar de https://offsets.imtheo.lol/version-9ac8595712b447a7/offsets.json (392 entradas)"
+}
