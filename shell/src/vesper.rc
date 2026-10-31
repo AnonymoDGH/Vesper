@@ -1,0 +1,33 @@
+// Vesper shell resources.
+//
+// The manifest is what makes the process per-monitor DPI aware and pulls in
+// common controls v6 (which is the only way the dark-mode theming of the edit
+// controls and their scrollbars works at all). The version block is so the file
+// has a real identity in Explorer rather than "file".
+
+1 24 "vesper.manifest"
+
+1 VERSIONINFO
+FILEVERSION 3,0,0,0
+PRODUCTVERSION 3,0,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Vesper"
+            VALUE "FileDescription", "Vesper"
+            VALUE "FileVersion", "3.0.0"
+            VALUE "InternalName", "Vesper"
+            VALUE "OriginalFilename", "Vesper.exe"
+            VALUE "ProductName", "Vesper"
+            VALUE "ProductVersion", "3.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
